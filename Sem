@@ -4647,7 +4647,7 @@ SaveManager:BuildConfigSection(Tabs['UI Settings'])
 ThemeManager:ApplyToTab(Tabs['UI Settings'])
 SaveManager:LoadAutoloadConfig()
 
-Library:SetWatermarkVisibility(true)
+Library:SetWatermarkVisibility(false)
 
 local StatsService = game:GetService("Stats")
 local MarketplaceService = game:GetService("MarketplaceService")
